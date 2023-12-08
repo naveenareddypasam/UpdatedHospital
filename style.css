@@ -27,7 +27,7 @@ body {
 .hero-section {
     background-image: url('hospital-background.jpg');
     background-size: cover;
-    color: white;
+    color: #fff; /* Adjusted text color for better contrast */
     text-align: center;
     padding: 60px;
 }
@@ -39,14 +39,14 @@ section {
 
 .service {
     background-color: #4CAF50;
-    color: white;
+    color: #fff; /* Adjusted text color for better contrast */
     margin: 10px;
     padding: 20px;
 }
 
 footer {
     background-color: #333;
-    color: white;
+    color: #fff; /* Adjusted text color for better contrast */
     text-align: center;
     padding: 10px 0;
 }
@@ -67,7 +67,7 @@ input, textarea {
 
 button {
     background-color: #4CAF50;
-    color: white;
+    color: #fff; /* Adjusted text color for better contrast */
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
