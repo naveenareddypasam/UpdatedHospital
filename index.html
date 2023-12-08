@@ -11,7 +11,7 @@
             <a href="#services">Services</a>
             <a href="#contact">Contact</a>
         </div>
-        <div class="hero-section">
+        <div class="hero-section" id="home"> <!-- Added id attribute -->
             <h1>Welcome to Our Hospital</h1>
             <p>Quality care for everyone.</p>
         </div>
@@ -20,7 +20,6 @@
     <section id="about">
         <h2>About Us</h2>
         <p>Information about the hospital and its services.</p>
-       
     </section>
 
     <section id="services">
@@ -30,22 +29,21 @@
         <div class="service">Service 3</div>
     </section>
 
-   <section id="contact">
-    <h2>Contact Us</h2>
-    <form action="submit.php" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Name" required>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Email" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Message"></textarea>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Message"></textarea>
 
-        <button type="submit">Send</button>
-    </form>
-</section>
-
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
     <footer>
         <p>&copy; 2023 Hospital Management System</p>
