@@ -36,13 +36,13 @@ section {
     padding: 20px;
     text-align: center;
 }
-
 .service {
     background-color: #4CAF50;
-    color: #fff; /* Adjusted text color for better contrast */
+    color: #2D2D2D; /* Darker text color for better contrast */
     margin: 10px;
     padding: 20px;
 }
+
 
 footer {
     background-color: #333;
